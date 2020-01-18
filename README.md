@@ -1,1 +1,1 @@
-#Magyarország megyéi és városai SQL formátumba
+# Magyarország megyéi és városai SQL formátumba
