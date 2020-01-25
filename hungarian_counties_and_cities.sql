@@ -1,29 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 4.8.5
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1:3306
--- Generation Time: Jan 18, 2020 at 11:55 AM
--- Server version: 5.7.26
--- PHP Version: 7.2.18
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
-SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `boiler`
---
-
--- --------------------------------------------------------
-
 --
 -- Table structure for table `cities`
 --
@@ -162,7 +136,7 @@ INSERT INTO `cities` (`id`, `name`, `parent_id`) VALUES
 (145, 'Vaskút', '6'),
 (146, 'Zsana', '6'),
 (7, 'Baranya megye', '0'),
-(450, '(Zádor)', '7'),
+(450, 'Zádor', '7'),
 (147, 'Abaliget', '7'),
 (148, 'Adorjás', '7'),
 (149, 'Ág', '7'),
@@ -548,7 +522,7 @@ INSERT INTO `cities` (`id`, `name`, `parent_id`) VALUES
 (529, 'Vésztő', '8'),
 (530, 'Zsadány', '8'),
 (9, 'Borsod-Abaúj-Zemplén megye', '0'),
-(743, '(Mad)', '9'),
+(743, 'Mad', '9'),
 (531, 'Abaújalpár', '9'),
 (532, 'Abaújkér', '9'),
 (533, 'Abaújlak', '9'),
