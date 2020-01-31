@@ -1,20 +1,3 @@
---
--- Table structure for table `cities`
---
-
-DROP TABLE IF EXISTS `cities`;
-CREATE TABLE IF NOT EXISTS `cities` (
-  `id` mediumint(11) NOT NULL,
-  `name` text NOT NULL,
-  `parent_id` text,
-  PRIMARY KEY (`id`),
-  KEY `id` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `cities`
---
-
 INSERT INTO `cities` (`id`, `name`, `parent_id`) VALUES
 (6, 'Bács-Kiskun megye', '0'),
 (29, 'Ágasegyháza', '6'),
