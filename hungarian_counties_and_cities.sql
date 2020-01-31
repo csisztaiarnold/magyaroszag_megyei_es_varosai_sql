@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS `cities` (
   `parent_id` text,
   PRIMARY KEY (`id`),
   KEY `id` (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `cities`
@@ -3310,7 +3310,3 @@ INSERT INTO `cities` (`id`, `name`, `parent_id`) VALUES
 (3410, 'Zalavég', '24'),
 (3411, 'Zebecke', '24');
 COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
