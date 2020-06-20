@@ -893,7 +893,7 @@ INSERT INTO `cities` (`id`, `name`, `parent_id`) VALUES
 (915, 'XXI.', '2'),
 (916, 'XXII.', '2'),
 (917, 'XXIII.', '2'),
-(10, 'Csongrád megye', '0'),
+(10, 'Csongrád-Csanád megye', '0'),
 (918, 'Algyő', '10'),
 (919, 'Ambrózfalva', '10'),
 (920, 'Apátfalva', '10'),
