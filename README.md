@@ -1,1 +1,1 @@
-# Magyarország megyéi és városai SQL formátumban
+# Magyarország vármegyéi és városai SQL formátumban
